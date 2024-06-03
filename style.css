@@ -1,0 +1,143 @@
+
+header {
+    background-color:burlywood;
+    background-image: url("images/pexels-moose-photos-1037995.jpg");
+    background-size: cover;
+    
+}
+
+#navbarTitle {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+#my_intro {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#my_name {
+    font-weight: 600;
+}
+
+#my_intro p {
+    margin-top: 2px;
+    text-align: center;
+}
+#profileImage {
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    
+}
+
+main {
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+#hobbiesTitle {
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+
+
+.my_hobby_box {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.hobbiesIcon {
+    height: 70px;
+    width: 70px;
+    align-self: center;
+}
+
+
+#my_skills {
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+
+#skillsTitle {
+    text-align: center;
+    margin-bottom: 8vh
+}
+
+.skillImage {
+    height: 50px;
+    width: 50px;
+    padding: 6px;
+}
+
+.skillsSet {
+    height: 240px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #4F709C; */
+    border-radius: 5%;
+    align-self: center;
+    background-color: #ccece7;
+}
+
+#my_skills p {
+    text-align: center;
+    font-weight: 600;
+}
+
+#contact_title {
+    margin-bottom: 9vh;
+}
+
+#contact_items {
+    margin-bottom: 20px;
+}
+
+.form-check {
+    margin-bottom: 5px;
+}
+
+#form_heading {
+    display: flex;
+    justify-content: center;
+}
+
+#form_heading img {
+    margin-right: 5px;
+    height: 24px;
+    width: 24px;
+}
+
+#contact_heading {
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+#contact_heading img {
+    margin-right: 5px;
+    height: 24px;
+    width: 24px;
+}
+
+.contact_div {
+    margin-bottom: 30px;
+} 
+
+.contact_label {
+    color: gray;
+}
+
+.footer_item_img {
+    height: 30px;
+    width: 30px;
+    margin: 2px 5px;
+}
+
